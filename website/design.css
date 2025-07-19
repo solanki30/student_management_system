@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h1, h2 {
+  color: #111;
+}
+.hero {
+  text-align: center;
+  background: #f4f4f8;
+}
+.cta-buttons .btn {
+  margin: 10px;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+.btn.primary {
+  background: #0078ff;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn.secondary {
+  border: 2px solid #0078ff;
+  color: #0078ff;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.services ul li, .use-cases ul li, .proof ul li {
+  margin: 8px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form select, form textarea {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 30px 10px;
+}
+.footer-links a {
+  margin: 0 10px;
+  color: #555;
+}
